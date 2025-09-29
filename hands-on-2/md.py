@@ -12,7 +12,7 @@ def calcenergy(a):
     ekin = a.get_kinetic_energy() / len(a)
     inst_temp = ekin / (1.5 * units.kB)
     etot = epot + ekin
-    return epot, ekin, inst_temp, etot
+    return epot, ekin, etot
     
 
 def run_md():
