@@ -36,5 +36,5 @@ jobs:
         flake8 . --count --exit-zero --max-complexity=10 --max-line-length=127 --statistics
     - name: Run unit and integration tests
       run: |
-        python3 unittest_md.py
-        python3 inttest_md.py
+        python3 hands-on-2/unittest_md.py
+        python3 hands-on-2/inttest_md.py
